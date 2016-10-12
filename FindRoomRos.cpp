@@ -10,7 +10,7 @@ ros::Publisher pub;
 int main (int argc,char **argv)
 {
     ros::init(argc, argv, "roomba2");
-    ROS_INFO_STREAM("Me comere a tu perro");
+    ROS_INFO_STREAM("Getting everything ready");
     //CREACION DE COSAS DE ROS-> POS Y SUB
     ros::NodeHandle nh;
     ros::Subscriber sub = nh.subscribe("/base_scan",1000,processScanCallback);
