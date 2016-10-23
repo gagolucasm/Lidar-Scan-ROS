@@ -3,7 +3,6 @@
 #include <sensor_msgs/LaserScan.h>
 #include <stdlib.h>
 
-
 void processScanCallback(const sensor_msgs::LaserScan::ConstPtr& msg);
 ros::Publisher pub;
 
